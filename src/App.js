@@ -58,7 +58,7 @@ function App() {
         <Router>
             <div className="App">
                 <header className="navigation">
-                    <Link to="/">
+                    <Link to="/cats4lyf">
                         <h1>Cats4Sale</h1>
                     </Link>
                     <div className="navigation-sub">
@@ -91,7 +91,7 @@ function App() {
                     <Route exact path="/cart">
                         <Cart cart={cart} />
                     </Route>
-                    <Route exact path="/" component={Home} />
+                    <Route exact path="//cats4lyf" component={Home} />
                     <Route exact path="/cats">
                         <div className="cat-wrapper">
                             <div id="cat-Thumbnail">
